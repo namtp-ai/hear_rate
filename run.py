@@ -1,3 +1,3 @@
 from service import app
 
-app.run(threaded=True, port=8080, debug=True)
+app.run(host='116.110.249.76', port=80, debug=True)
