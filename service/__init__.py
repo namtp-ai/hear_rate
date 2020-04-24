@@ -39,7 +39,7 @@ def index():
 
 
 class HeartRate(Resource):
-    def get(self):
+    # def get(self):
         # shelf = get_db()
         # keys = list(shelf.keys())
 
@@ -48,7 +48,7 @@ class HeartRate(Resource):
         # for key in keys:
         #     devices.append(shelf[key])
 
-        return {'message': 'Success', 'data': ''}, 200
+        # return {'message': 'Success', 'data': ''}, 200
 
     def post(self):
         parser = reqparse.RequestParser()
