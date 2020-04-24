@@ -26,16 +26,17 @@ def teardown_db(exception):
 
 @app.route("/")
 def index():
-    """Present some documentation"""
+    # """Present some documentation"""
 
-    # Open the README file
-    with open(os.path.dirname(app.root_path) + '/README.md', 'r') as markdown_file:
+    # # Open the README file
+    # with open(os.path.dirname(app.root_path) + '/README.md', 'r') as markdown_file:
 
-        # Read the content of the file
-        content = markdown_file.read()
+    #     # Read the content of the file
+    #     content = markdown_file.read()
 
-        # Convert to HTML
-        return markdown.markdown(content)
+    #     # Convert to HTML
+    #     return markdown.markdown(content)
+        return {'message': 'ok', 'data':'success'}, 200
 
 
 class HeartRate(Resource):
