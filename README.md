@@ -1,4 +1,15 @@
 # Stress Predict Service
+## Create Virtual Environment using (virtualenv for linux)
+```
+virtualenv  vend
+source vend/bin/activate
+```
+
+## Install 
+```
+ pip3 install -r requiments.txt
+ python3 run.py
+```
 
 ## Usage
 
@@ -46,4 +57,5 @@ Subsequent response definitions will only detail the expected value of the `data
     "data": "23,445,33,223,45,232,23,34,23",
 }
 ```
+
 
